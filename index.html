@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+
+    <!-- Links -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16"  href="/favicons/favicon-16x16.png">
+
+    <!-- JS -->
+    <script defer src="/js/script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="box_menu">
+            <div class="header_menu">
+                <h1>Pokedex</h1>
+                <img class="pokeball" src="/images/icon pokebola.png" >
+            </div>
+        </div>
+    </header>
+    <main>
+        <form class="form">
+            <input class="inp_search" type="search" placeholder="Name or Number" required>
+        </form>
+        <div class="display_pokemon">
+            <img class="display_background" src="/images/background.png" >
+            <img class="display_search" src="/images/serch blue1.png" >
+            <img class="pokemon_image" src="#">
+        </div>
+        <div class="display_name">
+            <h1>
+                <span class="id_pokemon">-</span>
+                <span class="name_pokemon">-</span>
+            </h1>
+        </div>
+        <div class="display_stats">
+            <div class="collum">
+                <div class="stats hp">
+                    <h1>
+                        <span>HP</span>
+                        <span class="number_hp">00</span>
+                    </h1>
+                </div>
+                <div class="stats attack">
+                    <h1>
+                        <span>Attack</span>
+                        <span class="attack_number">00</span>
+                    </h1>
+                </div>
+                <div class="stats defense">
+                    <h1>
+                        <span>Defense</span>
+                        <span class="defense_number">00</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="collum">
+                <div class="stats speed">
+                    <h1>
+                        <span>Speed</span>
+                        <span class="speed_number">00</span>
+                    </h1>
+                </div>
+                <div class="stats SpAttack ">
+                    <h1>
+                        <span>Sp - Attack </span>
+                        <span class="spattack_number">00</span>
+                    </h1>
+                </div>
+                <div class="stats SpDefense">
+                    <h1>
+                        <span>Sp - Defense</span>
+                        <span class="spdefense_number">00</span>
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>

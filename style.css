@@ -1,0 +1,176 @@
+*{
+    font-family: 'Mukta', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #292929;
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: -0.016rem;
+}
+.box_menu{
+    display: flex;
+    flex-direction: row;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    background: #181818;
+   
+}
+.header_menu{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pokeball{
+    width: 12%;
+}
+.inp_search{
+    text-align: center;
+    outline: none;
+    width: 100%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 1rem ;
+    font-weight: 300;
+    letter-spacing: -0.016rem;
+    background: #949494;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color: #181818;
+    box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px 8px 0px 0px;
+    padding: 0.8rem;
+}
+::placeholder{
+    color: white;
+}
+.display_pokemon{
+    position: absolute;
+}
+.display_background{
+    width: 100%;
+    height: 100%;
+}
+.display_search{
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    top: 19%;
+}
+.pokemon_image{
+    position: absolute;
+    left: 43%;
+    top: 22%;
+    width: 20%;
+}
+.display_name{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 45%;
+    background: #949494;
+    border-width: 3px 4px 0px 4px;
+    border-style: solid;
+    border-color: #26EBE7;
+    border-radius: 8px 8px 0px 0px;
+   
+}
+.display_stats{
+    background: #636363;
+    border-width: 0px 4px 0px 4px;
+    border-style: solid;
+    border-color: #35C4C7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-right: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.collum{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+}
+.stats > h1{
+    font-family: 'Mukta', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: -0.016rem;
+}
+.stats{
+    width: 100%;
+    display: flex;
+}
+.hp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 48px;
+}
+.attack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 24px;
+}
+.defense{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 16px;
+}
+.speed{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 32px;
+}
+.SpAttack{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 8px;
+}
+.SpDefense{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+    background: #949494;
+    border-radius: 8px;
+    gap: 4px;
+}
+
+
+
