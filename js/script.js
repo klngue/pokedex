@@ -38,7 +38,11 @@ const PrintPokemon = async (pokemon) => {
 
     if (data){
         pokeGif.style.display = 'block';
-        pokeGif.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
+        urlImage = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default']
+        if (urlImage == null){
+            urlImage = data['sprites']['front_default']
+        }
+        pokeGif.src = urlImage;
         pokeName.innerHTML = data.name;
         pokeId.innerHTML = data.id;
         inputSearch.value = '';
